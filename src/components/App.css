@@ -1,3 +1,9 @@
 .red {
 	color: red;
 }
+
+.header {
+	composes: red;
+	font-size: 18px;
+	transform: rotate(1deg);
+}
